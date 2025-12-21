@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://projectladoo.com/sitemap.xml
+
+# Optimization
+Crawl-delay: 5

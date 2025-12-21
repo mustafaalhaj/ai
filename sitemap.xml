@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+    <!-- Main Homepage -->
+    <url>
+        <loc>https://projectladoo.com/</loc>
+        <lastmod>2025-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        
+        <!-- Image Sitemap Integration (Helping Google Images rank these logos/tools) -->
+        <image:image>
+            <image:loc>https://logo.clearbit.com/openai.com</image:loc>
+            <image:title>Sora - Realistic Text to Video AI Model</image:title>
+            <image:caption>Sora by OpenAI is a groundbreaking text-to-video model.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/midjourney.com</image:loc>
+            <image:title>Midjourney - Generative AI Art</image:title>
+            <image:caption>Midjourney is an industry-leading AI image generator.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/openai.com</image:loc>
+            <image:title>ChatGPT - AI Assistant</image:title>
+            <image:caption>ChatGPT is the world's most popular conversational AI.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/github.com</image:loc>
+            <image:title>GitHub Copilot - AI Code Completions</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/elevenlabs.io</image:loc>
+            <image:title>ElevenLabs - Prime Voice AI</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/runwayml.com</image:loc>
+            <image:title>Runway Gen-3 - AI Video Editor</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/anthropic.com</image:loc>
+            <image:title>Claude 3.5 Sonnet - Advanced AI Reasoning</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/google.com</image:loc>
+            <image:title>Gemini - Google DeepMind AI</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/stability.ai</image:loc>
+            <image:title>Stable Diffusion - Open Source Image AI</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/lumalabs.ai</image:loc>
+            <image:title>Luma Dream Machine - 3D and Video AI</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/perplexity.ai</image:loc>
+            <image:title>Perplexity - AI Search Engine</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/jasper.ai</image:loc>
+            <image:title>Jasper - AI Marketing Copilot</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/copy.ai</image:loc>
+            <image:title>Copy.ai - AI Copywriting Tool</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/synthesia.io</image:loc>
+            <image:title>Synthesia - AI Avatars</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.clearbit.com/notion.so</image:loc>
+            <image:title>Notion AI - Productivity Assistant</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Category Pages (Virtual - for structural completeness) -->
+    <url>
+        <loc>https://projectladoo.com/?category=Video</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://projectladoo.com/?category=Image</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://projectladoo.com/?category=Text</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://projectladoo.com/?category=Code</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://projectladoo.com/?category=Audio</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://projectladoo.com/?category=Business</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://projectladoo.com/?category=3D</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://projectladoo.com/?category=Education</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
