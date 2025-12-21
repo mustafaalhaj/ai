@@ -5,8 +5,19 @@ let filteredTools = [...toolsData];
 let itemsToShow = 50; // Initial load count
 
 // DOM Elements
-const toolsGrid = document.getElementById('toolsGrid');
-const searchInput = document.getElementById('searchInput');
+const toolsGrid = document.querySelector('.tools-grid');
+const searchInput = document.querySelector('.search-input');
+
+// Global error handler for images to prevent infinite loops and improve performance
+window.handleImageError = function (img) {
+    // Prevent re-triggering
+    img.onerror = null;
+
+    // Use a simple data URL placeholder (1x1 transparent pixel)
+    // This prevents any network request and DOM manipulation
+    img.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="150"%3E%3Crect fill="%231a1a1a" width="200" height="150"/%3E%3Ctext x="50%25" y="50%25" text-anchor="middle" dy=".3em" fill="%23666" font-size="40"%3E🤖%3C/text%3E%3C/svg%3E';
+    img.style.objectFit = 'contain';
+};
 const categoryFilters = document.getElementById('categoryFilters');
 const noResults = document.getElementById('noResults');
 const scrollTopBtn = document.getElementById('scrollTopBtn');
@@ -57,6 +68,11 @@ function updateCategoryCounts() {
 
 // Simulated Visitor Counter
 function initVisitorCounter() {
+    // Safety check - exit if element doesn't exist
+    if (!visitorCountEl) {
+        return;
+    }
+
     let count = localStorage.getItem('ladoo_visitor_count');
 
     if (!count) {
@@ -199,7 +215,8 @@ function renderTools() {
     const toolsToRender = filteredTools.slice(0, itemsToShow);
 
     toolsGrid.innerHTML = toolsToRender.map((tool, index) => {
-        const logoUrl = getLogoUrl(tool.url);
+        // Use image from data if available, otherwise fallback to Clearbit
+        const logoUrl = tool.image || getLogoUrl(tool.url);
         const hotBadge = tool.hot ? '<span class="hot-badge">HOT</span>' : '';
 
         return `
@@ -210,7 +227,8 @@ function renderTools() {
                     src="${logoUrl}" 
                     alt="${tool.name}" 
                     class="tool-image"
-                    onerror="this.src='https://placehold.co/400x300/101010/FFF?text=${tool.name.replace(' ', '+')}'"
+                    loading="lazy"
+                    onerror="handleImageError(this)"
                 >
                 <span class="tool-category-badge">${tool.category}</span>
             </div>
