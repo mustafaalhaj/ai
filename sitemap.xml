@@ -6,7 +6,7 @@
     
     <!-- Main Homepage -->
     <url>
-        <loc>https://projectladoo.com/</loc>
+        <loc>https://aimustafa.online/</loc>
         <lastmod>2025-12-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -79,42 +79,42 @@
     
     <!-- Category Pages (Virtual - for structural completeness) -->
     <url>
-        <loc>https://projectladoo.com/?category=Video</loc>
+        <loc>https://aimustafa.online/?category=Video</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://projectladoo.com/?category=Image</loc>
+        <loc>https://aimustafa.online/?category=Image</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://projectladoo.com/?category=Text</loc>
+        <loc>https://aimustafa.online/?category=Text</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://projectladoo.com/?category=Code</loc>
+        <loc>https://aimustafa.online/?category=Code</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://projectladoo.com/?category=Audio</loc>
+        <loc>https://aimustafa.online/?category=Audio</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://projectladoo.com/?category=Business</loc>
+        <loc>https://aimustafa.online/?category=Business</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://projectladoo.com/?category=3D</loc>
+        <loc>https://aimustafa.online/?category=3D</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://projectladoo.com/?category=Education</loc>
+        <loc>https://aimustafa.online/?category=Education</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
