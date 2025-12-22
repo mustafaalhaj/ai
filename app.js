@@ -222,25 +222,26 @@ function renderTools() {
         return `
         <div class="tool-card" style="animation-delay: ${index * 0.05}s">
             ${hotBadge}
-            <div class="card-header">
+            
+            <div class="tool-image-wrapper">
+                <span class="tool-category-badge">${tool.category}</span>
                 <img 
                     src="${logoUrl}" 
-                    alt="${tool.name} Logo - AI Tool for ${tool.category}" 
-                    class="tool-icon"
-                    width="50"
-                    height="50"
+                    alt="${tool.name} Logo" 
+                    class="tool-image"
                     loading="lazy"
+                    width="100"
+                    height="100"
                     onerror="handleImageError(this)"
                 >
-                <div class="tool-info">
-                    <h3>${tool.name}</h3>
-                    <span class="tool-category">${tool.category}</span>
-                </div>
+            </div>
+
+            <div class="tool-content">
+                <h3 class="tool-title">${tool.name}</h3>
+                <p class="tool-description">${tool.description}</p>
             </div>
             
-            <p class="tool-description">${tool.description}</p>
-            
-            <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="visit-btn" aria-label="Visit ${tool.name} website">
+            <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="visit-btn" aria-label="Visit ${tool.name} website" style="margin-top: 1.5rem;">
                 Visit Site ↗
             </a>
 

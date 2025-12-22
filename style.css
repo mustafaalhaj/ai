@@ -270,16 +270,18 @@ a {
 }
 
 .tool-image-wrapper {
-  height: 160px;
+  height: 180px;
   overflow: hidden;
-  border-radius: 8px;
-  margin-bottom: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
   position: relative;
-  background: white;
+  background: rgba(255, 255, 255, 0.03);
+  /* Dark background */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .tool-image {
