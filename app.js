@@ -217,37 +217,40 @@ function renderTools() {
     toolsGrid.innerHTML = toolsToRender.map((tool, index) => {
         // Use image from data if available, otherwise fallback to Clearbit
         const logoUrl = tool.image || getLogoUrl(tool.url);
-        const hotBadge = tool.hot ? '<span class="hot-badge">HOT</span>' : '';
+        const hotBadge = tool.hot ? '<span class="badge-hot">HOT</span>' : '';
 
         return `
         <div class="tool-card" style="animation-delay: ${index * 0.05}s">
             ${hotBadge}
-            <div class="tool-image-wrapper">
+            <div class="card-header">
                 <img 
                     src="${logoUrl}" 
-                    alt="${tool.name}" 
-                    class="tool-image"
+                    alt="${tool.name} Logo - AI Tool for ${tool.category}" 
+                    class="tool-icon"
+                    width="50"
+                    height="50"
                     loading="lazy"
                     onerror="handleImageError(this)"
                 >
-                <span class="tool-category-badge">${tool.category}</span>
-            </div>
-            <div class="tool-content">
-                <h3 class="tool-title">${tool.name}</h3>
-                <p class="tool-description">${tool.description}</p>
-            </div>
-            <div class="tool-footer">
-                <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-link">
-                    Visit Site
-                </a>
-                <div class="share-actions">
-                    <button class="share-btn twitter" onclick="shareOnTwitter('${tool.name}', '${tool.url}')" title="Share on Twitter" aria-label="Share on Twitter">
-                        𝕏
-                    </button>
-                    <button class="share-btn whatsapp" onclick="shareOnWhatsApp('${tool.name}', '${tool.url}')" title="Share on WhatsApp" aria-label="Share on WhatsApp">
-                        📱
-                    </button>
+                <div class="tool-info">
+                    <h3>${tool.name}</h3>
+                    <span class="tool-category">${tool.category}</span>
                 </div>
+            </div>
+            
+            <p class="tool-description">${tool.description}</p>
+            
+            <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="visit-btn" aria-label="Visit ${tool.name} website">
+                Visit Site ↗
+            </a>
+
+            <div class="tool-footer" style="margin-top: 1rem; display: flex; justify-content: flex-end; gap: 0.5rem;">
+                <button class="share-btn twitter" onclick="shareOnTwitter('${tool.name}', '${tool.url}')" style="background:none; border:none; cursor:pointer; opacity:0.7; transition:opacity 0.2s;" title="Share on Twitter" aria-label="Share on Twitter">
+                    <span style="font-size: 1.2rem;">𝕏</span>
+                </button>
+                <button class="share-btn whatsapp" onclick="shareOnWhatsApp('${tool.name}', '${tool.url}')" style="background:none; border:none; cursor:pointer; opacity:0.7; transition:opacity 0.2s;" title="Share on WhatsApp" aria-label="Share on WhatsApp">
+                    <span style="font-size: 1.2rem;">📱</span>
+                </button>
             </div>
         </div>
     `}).join('');
