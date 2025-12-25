@@ -39,6 +39,22 @@ function getLogoUrl(toolUrl) {
 
 // Initialize
 function init() {
+    // Check for category in URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryParam = urlParams.get('category');
+
+    // Validate if the category exists in our data
+    // We check if any button exists with this category to be safe
+    const categoryButton = document.querySelector(`.filter-btn[data-category="${categoryParam}"]`);
+
+    if (categoryParam && categoryButton) {
+        currentCategory = categoryParam;
+
+        // Update UI buttons
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        categoryButton.classList.add('active');
+    }
+
     updateCategoryCounts();
     filterAndRender(); // Initial render
     setupEventListeners();
