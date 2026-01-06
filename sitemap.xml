@@ -7,7 +7,7 @@
     <!-- Main Homepage -->
     <url>
         <loc>https://aimustafa.online/</loc>
-        <lastmod>2025-12-21</lastmod>
+        <lastmod>2026-01-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
         
@@ -76,6 +76,44 @@
             <image:title>Notion AI - Productivity Assistant</image:title>
         </image:image>
     </url>
+
+    <!-- Arabic Homepage -->
+    <url>
+        <loc>https://aimustafa.online/index-ar.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://aimustafa.online/blog/index-ar.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aimustafa.online/about-ar.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://aimustafa.online/contact-ar.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://aimustafa.online/terms-ar.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aimustafa.online/privacy-ar.html</loc>
+        <lastmod>2026-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
     
     <!-- Category Pages (Virtual - for structural completeness) -->
     <url>
@@ -121,247 +159,247 @@
 
 <url>
     <loc>https://aimustafa.online/blog/ai-3d-modeling-tools.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-cybersecurity.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-data-analysis.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-ecommerce-tools.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-ethics-guide.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-for-coding-guide.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-for-real-estate.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-for-students-guide.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-for-teachers.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-in-gaming.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-in-healthcare.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-in-hr.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-interior-design-tools.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-language-learning.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-legal-tools.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-personal-finance.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-productivity-tools.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-resume-builders.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-seo-services.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-translation.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-travel-planners.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-video-generators-guide.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ai-writing-detectors.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/best-ai-audio-tools.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/best-ai-chrome-extensions.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/best-ai-marketing-tools.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/best-free-ai-tools-2025.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/building-ai-wrappers.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/chatgpt-alternatives-2025.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/coding-with-ai.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/digital-products-ai.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/freelancing-with-ai.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/future-of-ai-2030.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/generative-ai-explained.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/index.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/no-code-ai-apps.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/prompt-engineering.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/selling-ai-art.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/social-media-ai.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/ultimate-guide-ai-image-generators.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
     <loc>https://aimustafa.online/blog/youtube-automation.html</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
